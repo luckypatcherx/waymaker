@@ -15808,7 +15808,7 @@ footer .media a:hover {
     background: linear-gradient(#55bce7, #736fb3);
     -webkit-background-clip: text;
     float: left;
-    font-size: 140px;
+    font-size: 70px;
     font-weight: 700;
     letter-spacing: -.1em;
     line-height: .9;
@@ -15825,7 +15825,7 @@ footer .media a:hover {
 
 @media(min-width:480px) and (max-width:768px) {
     .about .heading-about h2 {
-        font-size: 100px
+        font-size: 80px
     }
 }
 

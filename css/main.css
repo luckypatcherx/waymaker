@@ -3,7 +3,7 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900";
 html {
     height: 100%;
-    overflow: visible;
+    overflow: scroll;
     position: relative;
     width: 100%
 }
@@ -352,12 +352,18 @@ pre {
     .post.vertical-item .entry-content h1 {
         font-size: 44px
     }
+    .logo img{
+        width: 50%;
+    }
 }
 
 @media(max-width:479px) {
     h1,
     .post.vertical-item .entry-content h1 {
         font-size: 34px
+    }
+    .logo img{
+        width: 50% !important;
     }
 }
 
@@ -15819,7 +15825,8 @@ footer .media a:hover {
 
 @media(max-width:479px) {
     .about .heading-about h2 {
-        font-size: 70px
+        font-size: 50px;
+        text-align: center;
     }
 }
 

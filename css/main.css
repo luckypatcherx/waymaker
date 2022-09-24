@@ -352,12 +352,18 @@ pre {
     .post.vertical-item .entry-content h1 {
         font-size: 44px
     }
+    .logo img{
+        width: 50%;
+    }
 }
 
 @media(max-width:479px) {
     h1,
     .post.vertical-item .entry-content h1 {
         font-size: 34px
+    }
+    .logo img{
+        width: 50% !important;
     }
 }
 

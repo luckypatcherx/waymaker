@@ -3,6 +3,9 @@
     .pcs{
         display: block !important;
     }
+    .pcss{
+        display: none;
+    }
 
 }
 @media (max-width:992px) {

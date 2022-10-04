@@ -3,7 +3,7 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900";
 html {
     height: 100%;
-    overflow: scroll;
+    overflow: auto;
     position: relative;
     width: 100%
 }
@@ -29,9 +29,8 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    overflow: visible;
+    overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden;
-    overflow-y: scroll;
     position: relative
 }
 

@@ -13066,7 +13066,7 @@ a.logo {
 
 a.logo img {
     display: inline-block;
-    max-height: 35px
+    max-height: 50px;
 }
 
 a.logo .logo-text {

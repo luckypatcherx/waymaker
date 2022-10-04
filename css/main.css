@@ -5,7 +5,8 @@ html {
     height: 100%;
     overflow: auto;
     position: relative;
-    width: 100%
+    width: 100%;
+    scroll-behavior: smooth;
 }
 
 ::-moz-selection {
@@ -7847,9 +7848,6 @@ select,
 
 .bg-maincolor3 {
     background: #55bce7;
-    background: -webkit-linear-gradient(top, #55bce7 0%, #736fb3 100%);
-    background: -webkit-linear-gradient(botopttom, #55bce7 0%, #736fb3 100%);
-    background: linear-gradient(to botopttom, #55bce7 0%, #736fb3 100%)
 }
 
 .bg-dark {
@@ -8330,6 +8328,8 @@ span.muted-bg {
     z-index: 2
 }
 
+
+
 .icon-box .icon-styled[class*=bg-],
 .icon-box .icon-styled.icon-bordered {
     margin-bottom: .5em
@@ -8339,6 +8339,9 @@ span.muted-bg {
 .icon-box .icon-styled+h3,
 .icon-box .icon-styled+h4 {
     margin-top: 1.6em
+}
+.btn{
+    border-radius: 50px;
 }
 
 .icon-box .icon-styled+p.small-text {
@@ -13066,7 +13069,7 @@ a.logo {
 
 a.logo img {
     display: inline-block;
-    max-height: 35px
+    max-height: 50px
 }
 
 a.logo .logo-text {

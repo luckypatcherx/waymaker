@@ -67,18 +67,7 @@ $(document).ready(function() {
 		});
 		
 		// sectionAnchor
-		function sectionAnchor() {
-		var navoffset = $('#dtr-header-global').height();
-			var hash = window.location.hash;
-			if (hash !== '') {
-				setTimeout(function() {
-					$('html, body').stop().animate({
-						scrollTop: $(hash).offset().top - navoffset - 20
-					}, 800, 'easeInSine');
-					history.pushState('', document.title, window.location.pathname);
-				}, 500);
-			}
-		} sectionAnchor();
+		
 
 		// testimonial
 		var swiper = new Swiper('.swiper-container.dtr-testimonial-carousel', {
@@ -170,5 +159,3 @@ $(document).ready(function() {
 		});
 
 }); // document ready
-
-

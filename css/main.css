@@ -8451,6 +8451,9 @@ span.muted-bg {
         margin-left: 50px
     }
 }
+.teaser-icon{
+    overflow: hidden;
+}
 
 .teaser-icon:hover {
     -webkit-animation: scaleDisappear .5s;

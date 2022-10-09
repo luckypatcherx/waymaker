@@ -3173,6 +3173,10 @@ a.pswp__share--download:hover {
 .scrollbar-macosx>.scroll-element .scroll-element_track {
     display: none
 }
+.intro_layers{
+    justify-content: center;
+    height: 100%;
+}
 
 .scrollbar-macosx>.scroll-element .scroll-bar {
     background-color: rgba(127, 127, 127, .4);
@@ -4098,6 +4102,9 @@ div.row.c-gutter-0 {
 @media(min-width:1200px) {
     .s-pt-xl-0>[class*=container] {
         padding-top: 0
+    }
+    .intro_layers{
+        height: auto;
     }
     .s-pt-xl-1>[class*=container] {
         padding-top: 1px
@@ -13907,7 +13914,6 @@ body.active-side-header.slide-right .page_header_side {
 @media(min-width:768px) {
     .page_slider .intro_layers_wrapper {
         position: absolute;
-        top: 100px
     }
     .page_slider .intro_layers_wrapper .intro_featured_word {
         font-size: 60px;

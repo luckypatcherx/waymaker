@@ -13894,7 +13894,7 @@ body.active-side-header.slide-right .page_header_side {
         top: 30px
     }
     .page_slider .intro_layers_wrapper .intro_featured_word {
-        font-size: 34px;
+        font-size: 30px;
         font-weight: 600;
         padding: 10px 0 20px
     }
@@ -15994,6 +15994,19 @@ footer .media a:hover {
     margin: 0 0 2px;
     word-wrap: break-word
 }
+@media only screen and (max-device-width: 480px) {
+    .slides{
+        height: 500px;
+    }
+    .slides img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .intro_layers{
+        justify-content: center;
+        height: 100%;
+    }
+ }
 
 @media(min-width:375px) {
     .section_gradient h3 {

@@ -132,6 +132,9 @@ figcaption {
 figcaption p {
     margin-bottom: 0
 }
+.social-icon{
+    font-size: 1px !important;
+}
 
 b,
 strong {
@@ -345,6 +348,9 @@ pre {
     color: #55bce7;
     text-decoration: none
 }
+.social-icons{
+    font-size: 1px !important;
+}
 
 @media(max-width:991px) {
     h1,
@@ -352,7 +358,7 @@ pre {
         font-size: 44px
     }
     .logo img{
-        width: 50%;
+        width: 65%;
     }
 }
 
@@ -362,8 +368,8 @@ pre {
         font-size: 34px
     }
     .logo img{
-        width: 50% !important;
-    }
+        width: 65% !important;
+
 }
 
 h2,

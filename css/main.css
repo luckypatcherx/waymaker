@@ -353,7 +353,7 @@ pre {
         font-size: 44px
     }
     .logo img{
-        width: 50%;
+        width: 65%;
     }
 }
 
@@ -361,9 +361,6 @@ pre {
     h1,
     .post.vertical-item .entry-content h1 {
         font-size: 34px
-    }
-    .logo img{
-        width: 50% !important;
     }
 }
 
@@ -12459,6 +12456,10 @@ a img.aligncenter {
     width: 30px
 }
 
+.social-icons{
+    font-size: 2px;
+}
+
 .toggle_menu:before,
 .toggle_menu span {
     left: 15px;
@@ -13225,9 +13226,6 @@ span.header-link a:hover {
     .header_logo_center a.logo span {
         font-size: 18px
     }
-    a.logo img {
-        max-height: 70px
-    }
 }
 
 #search_modal {
@@ -13543,6 +13541,10 @@ html.html-active-push-header {
 @media(max-width:370px) {
     .page_header_side.header_side_right .toggle_menu_side.active {
         left: 0
+    }
+    .logo img{
+        height: 40px;
+        width: 100% !important;
     }
 }
 
@@ -14013,6 +14015,10 @@ body.active-side-header.slide-right .page_header_side {
 @media(max-width:400px) {
     .error-404 .page-header h3 {
         font-size: 145px
+    }
+    
+    .social-icons{
+        font-size: 1px !important;
     }
 }
 

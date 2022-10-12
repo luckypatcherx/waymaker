@@ -59,9 +59,7 @@
         transform: rotate(-90deg);
     }
 
-    .text-right {
-        text-align: left !important;
-    }
+    
 
     .dtr-rounded-left,
     .dtr-rounded-right {
@@ -101,9 +99,7 @@
         display: none;
     }
 
-    .text-right {
-        text-align: left !important;
-    }
+   
     .pcs{
         visibility: hidden;
     }
@@ -130,9 +126,7 @@
         display: none;
     }
 
-    .text-right {
-        text-align: left !important;
-    }
+   
 
     .dtr-rounded-left,
     .dtr-rounded-right {

@@ -358,7 +358,7 @@ pre {
         font-size: 44px
     }
     .logo img{
-        width: 65%;
+        width: 95%;
     }
 }
 
@@ -367,8 +367,10 @@ pre {
     .post.vertical-item .entry-content h1 {
         font-size: 34px
     }
-    .logo img{
-        width: 65% !important;
+    a.logo img {
+        display: inline-block;
+        max-height: 80px;
+    }
 
 }
 
@@ -3597,8 +3599,8 @@ div.row.c-gutter-0 {
 }
 
 .s-py-15>[class*=container] {
-    padding-bottom: 15px;
-    padding-top: 15px
+    padding-bottom: 5px;
+    padding-top: 5px
 }
 
 .s-py-20>[class*=container] {
@@ -13072,7 +13074,7 @@ a.logo {
 
 a.logo img {
     display: inline-block;
-    max-height: 50px;
+    max-height: 80px;
 }
 
 a.logo .logo-text {
@@ -13114,7 +13116,7 @@ a.logo.flex-column.text-center {
 
 .header_logo_center a.logo {
     display: inline-block;
-    padding: 10px 0;
+    padding: 0 0;
     position: relative;
     z-index: 2
 }

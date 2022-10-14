@@ -8369,12 +8369,15 @@ border-width: 2px;
 }
 .imgg{
     position: relative;
-    height: 440px;
-    width: 360px;
+    min-height: 440px;
+    object-fit: cover;
     display: flex;
     justify-content: center;
     
     border: 1px solid #eee;
+}
+.imgg img{
+    object-fit: cover;
 }
 
 .icon-box h3 a{

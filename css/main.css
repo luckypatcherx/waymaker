@@ -8220,7 +8220,7 @@ span.muted-bg {
 }
 
 .icon-boxed h3 {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
     letter-spacing: -.02em;
     line-height: 1.2;
@@ -8242,7 +8242,6 @@ span.muted-bg {
     font-size: 28px;
     height: 3em;
     height: 80px;
-    margin-top: -70px;
     width: 3em;
     width: 80px
 }
@@ -8336,7 +8335,7 @@ span.muted-bg {
 
 .icon-box .icon-styled[class*=bg-],
 .icon-box .icon-styled.icon-bordered {
-    margin-bottom: .5em
+    margin-bottom: 0em
 }
 .factiv{
 border-color: #55bce7;
@@ -8346,7 +8345,7 @@ border-width: 2px;
 .icon-box .icon-styled+h2,
 .icon-box .icon-styled+h3,
 .icon-box .icon-styled+h4 {
-    margin-top: 1.6em
+    margin-top: 1.6em;
 }
 .btn{
     border-radius: 50px;
@@ -8370,10 +8369,15 @@ border-width: 2px;
 }
 .imgg{
     position: relative;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    
+    border: 1px solid #eee;
 }
 
 .icon-box h3 a{
-    color: white;
+    color: #55bce7;
 }
 
 .icon-box .icon-styled+p.small-text {
@@ -15246,7 +15250,7 @@ a:hover {
 }
 
 .icon-boxed {
-    background-image: url(../img/texture2.jpg);
+    background-image:none;
 }
 
 .copyright_year {
@@ -15651,7 +15655,8 @@ footer .media a:hover {
 
 .icon-box a {
     color: gray;
-    text-decoration: none
+    text-decoration: none;
+    text-align: center;
 }
 
 .btn-services {
@@ -15827,7 +15832,7 @@ footer .media a:hover {
 }
 
 .teaser-box .icon-box.hero-bg {
-    padding: 30px 60px 50px
+    padding: 30px 60px 0px
 }
 .teaser-box h4{
     text-align: center;
@@ -16136,7 +16141,7 @@ a.url.name:hover {
 }
 
 .header_logo_center.footer-logo-ds a.logo img {
-    max-height: 79px
+    max-height: 150px
 }
 
 @media(max-width:1299px) and (min-width:767px) {

@@ -16085,7 +16085,7 @@ a.url.name:hover {
 }
 
 .header_logo_center.footer-logo-ds a.logo img {
-    max-height: 79px
+    max-height: 150px
 }
 
 @media(max-width:1299px) and (min-width:767px) {

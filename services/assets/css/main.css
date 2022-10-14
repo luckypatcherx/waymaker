@@ -16090,7 +16090,7 @@ a.url.name:hover {
 
 @media(max-width:1299px) and (min-width:767px) {
     .header_logo_center.footer-logo-ds a.logo img {
-        max-height: 40px
+        max-height: 150px
     }
 }
 

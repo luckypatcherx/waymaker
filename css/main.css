@@ -8348,7 +8348,7 @@ border-width: 2px;
     margin-top: 1.6em;
 }
 .btn{
-    border-radius: 50px;
+    border-radius: 0px;
 }
 .hanim{
     transition: all 300ms ease;

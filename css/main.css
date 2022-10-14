@@ -8337,10 +8337,19 @@ span.muted-bg {
 .icon-box .icon-styled.icon-bordered {
     margin-bottom: 0em
 }
+
 .factiv{
 border-color: #55bce7;
-border-width: 2px;
+background-color:#55bce7b3 ;
+position: absolute;
+bottom: 0;
+height: 12%;
+width: 100%;
+padding: 0 !important;
+z-index: 8888;
+margin: 0 !important;
 }
+
 
 .icon-box .icon-styled+h2,
 .icon-box .icon-styled+h3,
@@ -8366,6 +8375,8 @@ border-width: 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    left: 0;
+    right: 0;
 }
 .imgg{
     position: relative;
@@ -8655,6 +8666,7 @@ h3.small {
     .number-card .card-content h3 {
         font-size: 38px
     }
+    
 }
 
 @media(max-width:499px) {
@@ -8667,6 +8679,10 @@ h3.small {
     .number-card h3,
     .number-card h4 {
         display: inline-block
+    }
+    
+    .factiv{
+        background-color: #55bce7;
     }
 }
 

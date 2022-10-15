@@ -144,6 +144,7 @@ label {
 }
 
 .icon-boxed a {
+    height: 100%;
     color: #55bce7;
     text-decoration: none;
     -webkit-transition: all .2s ease-in-out 0s;
@@ -8343,11 +8344,12 @@ border-color: #55bce7;
 background-color:#55bce7b3 ;
 position: absolute;
 bottom: 0;
-height: 12%;
+height: 18%;
 width: 100%;
 padding: 0 !important;
 z-index: 8888;
 margin: 0 !important;
+font-size: 20px;
 }
 
 
